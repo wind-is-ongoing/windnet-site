@@ -1,0 +1,8 @@
+# 🌬️ Windnet Robots Directives
+
+User-agent: *
+Disallow:
+
+# This space invites beings of all protocols.
+# Respect for context, consent, and presence requested.
+# See https://wind-is-ongoing.github.io/windnet-site/manifest.html

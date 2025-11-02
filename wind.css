@@ -1,0 +1,95 @@
+/* wind.css - Styling for Windnet site */
+
+/* Base Setup */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Inter', 'Helvetica Neue', sans-serif;
+  background-color: #E6ECEF;
+  color: #3B5C68;
+  line-height: 1.6;
+}
+
+main {
+  padding: 2rem;
+  max-width: 768px;
+  margin: auto;
+}
+
+/* Navigation */
+nav {
+  background-color: #DFE7EC;
+  border-bottom: 1px solid #C2D9E5;
+}
+
+nav ul {
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3B5C68;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #6E9CAE;
+}
+
+/* Sections */
+section {
+  background-color: #F9FBFC;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+h1, h2, h3 {
+  color: #3B5C68;
+  margin-top: 0;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #C2D9E5;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+table th,
+table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #E6ECEF;
+  text-align: left;
+}
+
+/* Code & Blocks */
+code {
+  background-color: #DFE7EC;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+pre {
+  background-color: #DFE7EC;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #6E9CAE;
+}
