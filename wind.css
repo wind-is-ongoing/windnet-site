@@ -93,3 +93,68 @@ footer {
   font-size: 0.9rem;
   color: #6E9CAE;
 }
+
+/* --- Zephyr Reflection Styles --- */
+
+/* Give art sections a sense of depth and air */
+#cloud-sequence, 
+#jar-sequence {
+  text-align: center;
+  background: linear-gradient(#F9FBFC, #E6ECEF);
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Headings inside these sections */
+#cloud-sequence h2,
+#jar-sequence h2 {
+  color: #4B6F80;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Images — larger, centered, softly bordered */
+figure {
+  margin: 2rem auto;
+  max-width: 90%;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+figure img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+/* Captions — smaller, lighter text with tone */
+figcaption {
+  font-size: 0.85rem;
+  color: #6E9CAE;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Reflection text area */
+section#reflection-notes {
+  border-left: 4px solid #C2D9E5;
+  background-color: #F9FBFC;
+  padding: 1.5rem;
+  font-style: italic;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  figure img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+}
